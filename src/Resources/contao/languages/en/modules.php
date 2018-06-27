@@ -7,11 +7,3 @@ $GLOBALS['TL_LANG']['FMD']['tokenlogin'] = [
 
 $GLOBALS['TL_LANG']['FMD']['toklog_token'] = 'Token';
 
-$GLOBALS['TL_LANG']['FMD']['toklog_slabel'] = 'Go!';
-
-//$GLOBALS['TL_LANG']['FMD']['logtok_emptyField'] = 'Please enter a token';
-
-//$GLOBALS['TL_LANG']['FMD']['logtok_invalidLogin'] = 'Please enter a valid token';
-
-//$GLOBALS['TL_LANG']['FMD']['logtok_loggedInAs'] = 'Login with token %s was succesfull';
-

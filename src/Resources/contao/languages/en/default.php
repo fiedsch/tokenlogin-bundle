@@ -1,7 +1,7 @@
 <?php
 
-$GLOBALS['TL_LANG']['MSC']['logtok_emptyField'] = 'Bitte geben Sie ein Token ein';
+$GLOBALS['TL_LANG']['MSC']['logtok_emptyField'] = 'Please enter a token';
 
-$GLOBALS['TL_LANG']['MSC']['logtok_invalidLogin'] = 'Bitte geben Sie ein gültiges Token ein';
+$GLOBALS['TL_LANG']['MSC']['logtok_invalidLogin'] = 'Please enter a valid token';
 
-$GLOBALS['TL_LANG']['MSC']['logtok_loggedInAs'] = 'Login mit Token %s war erfolgreich';
+$GLOBALS['TL_LANG']['MSC']['logtok_loggedInAs'] = 'Successful login with token %s';
