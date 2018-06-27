@@ -1,0 +1,3 @@
+routing_demo:
+    resource: "@FiedschTokenloginBundle/Controller"
+    type: annotation

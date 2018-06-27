@@ -1,0 +1,6 @@
+.idea/*
+*~
+
+# Test Class only -- not part of the bundle!
+
+src/MyHooks.php
