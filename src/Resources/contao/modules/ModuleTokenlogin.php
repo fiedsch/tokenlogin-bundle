@@ -27,7 +27,6 @@ namespace Fiedsch\TokenloginBundle;
 use Contao\ModuleLogin;
 use Contao\Input;
 use Contao\System;
-use Contao\StringUtil;
 use Patchwork\Utf8;
 use Symfony\Component\HttpFoundation\Request;
 
