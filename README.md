@@ -35,13 +35,11 @@ An Example:
 ```php
 // your bundle's config.php
 
-$GLOBALS['TL_HOOKS']['importUser'][] = array('\MyVendor\MyBundle\MyHooks', 'myImportUser'); 
+$GLOBALS['TL_HOOKS']['importUser'][] = array('MyVendor\MyBundle\MyHooks', 'myImportUser'); 
 ```
 
 ```php
-// class \MyVendor\MyBundle\MyHooks
-
-namespace \MyVendor\MyBundle;
+namespace MyVendor\MyBundle;
 
 use Fiedsch\TokenloginBundle\ModuleTokenlogin;
 use Contao\MemberModel;
