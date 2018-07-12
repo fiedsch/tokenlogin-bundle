@@ -117,5 +117,28 @@ class MyHooks {
 }
 ```
 
+### Implementing in App Bundle
 
+Add `"autoload"` section to composer (or extend it if already present):
+
+```json
+
+   "autoload": {
+       "psr-4": {
+           "AppBundle\\": "src/AppBundle/"
+       }
+   }
+```
+
+Add file `app/Resources/contao/config/config.php` containing the hook declaration:
+
+```php
+  $GLOBALS['TL_HOOKS']['importUser'][] = array('AppBundle\AppHooks', 'importUser'); 
+```
+
+Add file `src/AppBundle/AppHooks.php` and implement `importUser` there (see example 
+above as a guide, where you obviously have to change the `namespace` to `AppBundle`
+and the `class` name to `AppHooks`).
+
+Run `composer dump-autoload`.
 
