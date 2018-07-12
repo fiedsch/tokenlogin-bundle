@@ -44,6 +44,7 @@ namespace MyVendor\MyBundle;
 use Fiedsch\TokenloginBundle\ModuleTokenlogin;
 use Contao\MemberModel;
 use Contao\Encryption;
+use Contao\System;
 
 class MyHooks {
     /**
@@ -103,7 +104,7 @@ class MyHooks {
             $newMember->dateAdded = time();
             $newMember->save();
             
-            \System::log(sprintf("created new member for token %s", $newMember->username), __METHOD__, TL_ACCESS);
+            System::log(sprintf("created new member for token %s", $newMember->username), __METHOD__, TL_ACCESS);
             
             // (3) purge old entries? This might be a good place.
             
