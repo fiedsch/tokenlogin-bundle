@@ -95,7 +95,7 @@ class ModuleTokenlogin extends ModuleLogin {
             $request->request->set('password', self::TOKENUSERPASSWORD);
         }
 
-        // proceed as the normnal login module
+        // proceed as the normal login module
         return parent::generate();
     }
 
